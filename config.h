@@ -55,7 +55,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of roficmd, manipulated in spawn() */
-static const char *roficmd[] = { "rofi", "-show", "run", "-font", "terminus 20",  NULL };
+static const char *roficmd[] = { "rofi", "-show", "run", "-font", "xos4-terminus-medium 20",  NULL };
 static const char *termcmd[]  = { "mate-terminal", NULL };
 
 static Key keys[] = {
