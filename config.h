@@ -7,6 +7,7 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
+static const char rofifont[]		= "terminus 20"
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -56,7 +57,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "rofi", "-modi", "drun", "-theme", "config", "-show", NULL };
+static const char *dmenucmd[] = { "rofi", "-modi", "drun", "-font", rofifont, "-show", NULL };
 static const char *termcmd[]  = { "mate-terminal", NULL };
 
 static Key keys[] = {
