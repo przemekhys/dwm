@@ -10,7 +10,7 @@ win + shift + right | decrease nmaster
 ## to do
 
 - [ ] is dmenumon nessecry when i use rofi ? maby i can clenn this code
-- [ ] font change
-- [ ] increse font and tag size
+- [x] font change
+- [x] increse font and tag size
 - [ ] add aplication rule
 - [ ] chane colore schema
