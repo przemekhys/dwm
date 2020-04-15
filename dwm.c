@@ -1639,11 +1639,9 @@ sigchld(int unused)
 void
 spawn(const Arg *arg)
 {
-	if (arg->v == roficmd)
-		dmenumon[0] = '0' + selmon->num;
 	if (fork() == 0) {
 		if (dpy)
-			close(ConnectionNumber(dpy));
+			close((dpy));
 		setsid();
 		execvp(((char **)arg->v)[0], (char **)arg->v);
 		fprintf(stderr, "dwm: execvp %s", ((char **)arg->v)[0]);

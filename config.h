@@ -54,7 +54,6 @@ static const Layout layouts[] = {
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 /* commands */
-static char dmenumon[2] = "0"; /* component of roficmd, manipulated in spawn() */
 static const char *roficmd[] = { "rofi", "-show", "run", "-font", "xos4-terminus-medium 20",  NULL };
 static const char *termcmd[]  = { "mate-terminal", NULL };
 
