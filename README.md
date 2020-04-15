@@ -9,7 +9,7 @@ win + shift + right | decrease nmaster
 
 ## to do
 
-- [ ] is dmenumon nessecry when i use rofi ? maby i can clenn this code
+- [x] is dmenumon nessecry when i use rofi ? maby i can clenn this code
 - [x] font change
 - [x] increse font and tag size
 - [ ] add aplication rule
