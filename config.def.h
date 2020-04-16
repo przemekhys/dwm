@@ -58,7 +58,7 @@ static const Layout layouts[] = {
 /* commands */
 static const char *roficmd[] = { "rofi", "-show", "drun", "-font", "xos4-terminus-medium 20", "-display-drun", "",  NULL };
 static const char *termcmd[]  = { "mate-terminal", NULL };
-
+/* can chceck key code with xev if use x11 */
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_d,      spawn,          {.v = roficmd } },
