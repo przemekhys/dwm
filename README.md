@@ -6,8 +6,8 @@ win + return | terminal
 win + d | luncher Rofi
 win + left | focusstack +1
 win + right | focusstack -1
-win + shift + left | increase nmaster
-win + shift + right | decrease nmaster
+win + minus | increase master
+win + equal | decrease master
 win + q | kill window
 win + e | quit DWM
 
