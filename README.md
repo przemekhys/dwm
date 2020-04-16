@@ -18,4 +18,4 @@ win + e | quit DWM
 - [x] font change
 - [x] increse font and tag size
 - [ ] add aplication rule
-- [ ] chane colore schema
+- [x] chane colore schema
