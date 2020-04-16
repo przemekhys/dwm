@@ -2,12 +2,13 @@
 
 key | command
 ------------ | -------------
-win + return | terminal
+win + return + shift | terminal
 win + d | luncher Rofi
 win + left | focusstack +1
 win + right | focusstack -1
 win + minus | increase master
 win + equal | decrease master
+win + return | chcange windows as new master
 win + q | kill window
 win + e | quit DWM
 
